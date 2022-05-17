@@ -26,10 +26,10 @@ class set_param:
                  ):
         super(set_param, self).__init__()
 
-        self.images_path = r'E:\PycharmProjects\pythonProject\UNet\data\VOCdevkit\VOC2012\JPEGImages'
-        self.masks_path = r'E:\PycharmProjects\pythonProject\UNet\data\VOCdevkit\VOC2012\SegmentationClass'
-        self.model_save_path = r'E:\PycharmProjects\pythonProject\HuramUNet\data\checkpoints'
-        self.image_save_path = r'E:\PycharmProjects\pythonProject\HuramUNet\data\test'
+        self.images_path = r'.\data\images'
+        self.masks_path = r'.\data\masks'
+        self.model_save_path = r'.\data\checkpoints'
+        self.image_save_path = r'.\data\test'
 
         self.num_epoch = num_epoch
         self.batch_size = batch_size
